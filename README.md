@@ -23,3 +23,5 @@ Um projeto de site para cinema desenvolvido como parte dos meus estudos em Desen
 O projeto apresenta três etapas de desenvolvimento, explorando diferentes recursos e possibilidades da criação de sites.
 
 **Toca da Pipoca — Pegue sua pipoca e venha para a nossa toca! 🍿**
+
+Projeto Publicado:https://rodrigues-giovanna.github.io/Toca-da-Pipoca/
