@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários - Toca da Pipoca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍿 Toca da Pipoca</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="horarios.html">Horários</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="horarios-container">
+        <h2>🎬 Programação da Semana</h2>
+        <p>Escolha um dia e confira nossas sessões!</p>
+
+        <div class="filtro">
+            <label for="dia">📅 Escolha o dia:</label>
+
+            <select id="dia" onchange="filtrarDia()">
+                <option value="todos">Todos os dias</option>
+                <option value="segunda">Segunda-feira</option>
+                <option value="terca">Terça-feira</option>
+                <option value="quarta">Quarta-feira</option>
+                <option value="quinta">Quinta-feira</option>
+                <option value="sexta">Sexta-feira</option>
+                <option value="sabado">Sábado</option>
+                <option value="domingo">Domingo</option>
+            </select>
+        </div>
+
+        <div id="programacao">
+
+            <section class="dia" data-dia="segunda">
+                <h3>Segunda-feira</h3>
+                <p>14:00 - Shrek 🐸</p>
+                <p>16:00 - A Era do Gelo 🐘</p>
+                <p>19:00 - As Branquelas 👱‍♀️👱‍♀️</p>
+            </section>
+
+            <section class="dia" data-dia="terca">
+                <h3>Terça-feira</h3>
+                <p>14:00 - Divertida Mente 2 🧠</p>
+                <p>16:00 - Minha Mãe é uma Peça 👩‍👦</p>
+                <p>19:00 - Homem-Aranha: Através do Aranhaverso 🕷️</p>
+            </section>
+
+            <section class="dia" data-dia="quarta">
+                <h3>Quarta-feira</h3>
+                <p>14:00 - A Era do Gelo 🐘</p>
+                <p>16:00 - Shrek 🐸</p>
+                <p>19:00 - Divertida Mente 2 🧠</p>
+            </section>
+
+            <section class="dia" data-dia="quinta">
+                <h3>Quinta-feira</h3>
+                <p>14:00 - As Branquelas 👱‍♀️👱‍♀️</p>
+                <p>16:00 - Homem-Aranha: Através do Aranhaverso 🕷️</p>
+                <p>19:00 - Minha Mãe é uma Peça 👩‍👦</p>
+            </section>
+
+            <section class="dia" data-dia="sexta">
+                <h3>Sexta-feira</h3>
+                <p>14:00 - Minha Mãe é uma Peça 👩‍👦</p>
+                <p>16:00 - Divertida Mente 2 🧠</p>
+                <p>19:00 - Shrek 🐸</p>
+            </section>
+
+            <section class="dia" data-dia="sabado">
+                <h3>Sábado</h3>
+                <p>12:00 - Shrek 🐸</p>
+                <p>14:00 - Divertida Mente 2 🧠</p>
+                <p>16:00 - Homem-Aranha: Através do Aranhaverso 🕷️</p>
+                <p>18:00 - Minha Mãe é uma Peça 👩‍👦</p>
+                <p>20:00 - A Era do Gelo 🐘</p>
+                <p>22:00 - As Branquelas 👱‍♀️👱‍♀️</p>
+            </section>
+
+            <section class="dia" data-dia="domingo">
+                <h3>Domingo</h3>
+                <p>12:00 - Minha Mãe é uma Peça 👩‍👦</p>
+                <p>14:00 - A Era do Gelo 🐘</p>
+                <p>16:00 - As Branquelas 👱‍♀️👱‍♀️</p>
+                <p>18:00 - Shrek 🐸</p>
+                <p>20:00 - Homem-Aranha: Através do Aranhaverso 🕷️</p>
+                <p>22:00 - Divertida Mente 2 🧠</p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2000 Toca da Pipoca</p>
+    </footer>
+
+    <script>
+        function filtrarDia() {
+            const diaEscolhido = document.getElementById("dia").value;
+            const dias = document.querySelectorAll(".dia");
+
+            dias.forEach(function(dia) {
+                if (diaEscolhido === "todos" || dia.dataset.dia === diaEscolhido) {
+                    dia.style.display = "block";
+                } else {
+                    dia.style.display = "none";
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>

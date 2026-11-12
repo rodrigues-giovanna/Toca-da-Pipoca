@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação - Toca da Pipoca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="index.html" class="logo">
+            <span class="icone-logo">🍿</span>
+            <span class="nome-logo">Toca da <strong>Pipoca</strong></span>
+        </a>
+
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="horarios.html" class="ativo">Horários</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="conteudo-pagina">
+
+        <div class="programacao-topo">
+            <div>
+                <h2>Escolha sua sessão</h2>
+                <p>Uma semana inteira de diversão espera por você.</p>
+            </div>
+            <span class="subtitulo">Programação 2026</span>
+        </div>
+
+        <!-- dias disponíveis para escolher -->
+        <div class="seletor-dias" id="seletor-dias">
+            <button class="dia-botao selecionado" data-dia="segunda"><span>SEG</span><strong>01</strong></button>
+            <button class="dia-botao" data-dia="terca"><span>TER</span><strong>02</strong></button>
+            <button class="dia-botao" data-dia="quarta"><span>QUA</span><strong>03</strong></button>
+            <button class="dia-botao" data-dia="quinta"><span>QUI</span><strong>04</strong></button>
+            <button class="dia-botao" data-dia="sexta"><span>SEX</span><strong>05</strong></button>
+            <button class="dia-botao" data-dia="sabado"><span>SÁB</span><strong>06</strong></button>
+            <button class="dia-botao" data-dia="domingo"><span>DOM</span><strong>07</strong></button>
+        </div>
+
+        <section>
+            <h2 id="titulo-dia">Sessões de segunda-feira</h2>
+            <p class="introducao" id="descricao-dia">Confira os filmes e escolha seu horário.</p>
+
+            <div class="sessoes" id="lista-sessoes"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Toca da Pipoca. Todos os direitos reservados.</p>
+        <p>Mais que um cinema, uma experiência! 🍿</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

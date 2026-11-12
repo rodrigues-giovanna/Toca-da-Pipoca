@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Toca da Pipoca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="index.html" class="logo">
+            <span class="icone-logo">🍿</span>
+            <span class="nome-logo">Toca da <strong>Pipoca</strong></span>
+        </a>
+
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="horarios.html">Horários</a>
+            <a href="contato.html" class="ativo">Contato</a>
+        </nav>
+    </header>
+
+    <main class="conteudo-pagina">
+
+        <h2>Vamos conversar?</h2>
+        <p class="introducao">
+            Sua opinião faz parte da nossa experiência.
+            Envie sua mensagem para a Toca da Pipoca!
+        </p>
+
+        <div class="contato-layout">
+
+            <section class="contato-info">
+                <h3>Estamos por aqui! 🍿</h3>
+                <p>
+                    Dúvidas, sugestões ou elogios?
+                    Queremos saber o que você achou da nossa programação.
+                </p>
+
+                <div class="contato-detalhe">
+                    <strong>🎬 Sugestões</strong>
+                    <p>Conte qual filme gostaria de ver na nossa programação.</p>
+                </div>
+
+                <div class="contato-detalhe">
+                    <strong>💬 Atendimento</strong>
+                    <p>Envie sua dúvida pelo formulário ao lado.</p>
+                </div>
+            </section>
+
+            <!-- formulário de contato -->
+            <form class="formulario" id="formulario-contato">
+
+                <label for="nome">Seu nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Como podemos chamar você?" required>
+
+                <label for="email">Seu e-mail</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" name="assunto" placeholder="Sobre o que deseja falar?" required>
+
+                <label for="mensagem">Sua mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+
+                <button type="submit" class="botao-principal" id="botao-enviar">
+                    Enviar mensagem →
+                </button>
+
+                <div class="retorno-formulario" id="retorno" role="status" aria-live="polite"></div>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Toca da Pipoca. Todos os direitos reservados.</p>
+        <p>Mais que um cinema, uma experiência! 🍿</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
