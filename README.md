@@ -11,7 +11,7 @@ Projeto de desenvolvimento de um site para cinema, criado como atividade do curs
 ## 🎬 Funcionalidades
 
 - Página inicial
-- Catálogo de filmes
+- Catalogo de filmes
 - Programação e horários
 - Página de contato
 
