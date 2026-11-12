@@ -1,19 +1,16 @@
 # 🍿 Toca da Pipoca
 
-Projeto de desenvolvimento de um site para cinema, criado como atividade do curso de Desenvolvimento de Sistemas.
+Bem-vindo à Toca da Pipoca! 🎬
 
-## 💻 Versões do projeto
+Um projeto de site para cinema desenvolvido como parte dos meus estudos em Desenvolvimento de Sistemas.
 
-- **Web 1.0:** primeira versão, com estrutura simples em HTML.
-- **Web 2.0:** versão com melhorias visuais utilizando CSS.
-- **Web 3.0:** versão mais moderna, com HTML, CSS e JavaScript.
+**Explore cada versão da Toca da Pipoca e acompanhe a evolução do projeto!**
 
-## 🎬 Funcionalidades
+## 🎥 Conheça as versões
 
-- Página inicial
-- Catalogo de filmes
-- Programação e horários
-- Página de contato
+- 🍿 [Web 1.0](Web%201.0/) — O início do nosso cinema.
+- 🎬 [Web 2.0](Web%202.0/) — Uma experiência com melhorias visuais.
+- ✨ [Web 3.0](Web%203.0/) — Uma versão mais moderna e interativa.
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -21,10 +18,8 @@ Projeto de desenvolvimento de um site para cinema, criado como atividade do curs
 - CSS3
 - JavaScript
 
-## Giovanna de Oliveira Rodrigues
+## 📌 Sobre o projeto
 
-Projeto desenvolvido como parte dos estudos em Desenvolvimento de Sistemas.
+O projeto apresenta três etapas de desenvolvimento, explorando diferentes recursos e possibilidades da criação de sites.
 
 **Toca da Pipoca — Pegue sua pipoca e venha para a nossa toca! 🍿**
-
-Link Publicado: https://rodrigues-giovanna.github.io/Toca-da-Pipoca/
