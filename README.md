@@ -26,3 +26,5 @@ Projeto de desenvolvimento de um site para cinema, criado como atividade do curs
 Projeto desenvolvido como parte dos estudos em Desenvolvimento de Sistemas.
 
 **Toca da Pipoca — Pegue sua pipoca e venha para a nossa toca! 🍿**
+
+##Link Publicado: https://rodrigues-giovanna.github.io/Toca-da-Pipoca/## 
