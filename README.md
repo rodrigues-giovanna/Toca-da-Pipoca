@@ -8,9 +8,9 @@ Um projeto de site para cinema desenvolvido como parte dos meus estudos em Desen
 
 ## 🎥 Conheça as versões
 
-- 🍿 [Web 1.0](Web%201.0/) — O início do nosso cinema.
-- 🎬 [Web 2.0](Web%202.0/) — Uma experiência com melhorias visuais.
-- ✨ [Web 3.0](Web%203.0/) — Uma versão mais moderna e interativa.
+- 🍿 [Web 1.0](https://rodrigues-giovanna.github.io/Toca-da-Pipoca/Web%201.0/index.html) — O início do nosso cinema.
+- 🎬 [Web 2.0](https://rodrigues-giovanna.github.io/Toca-da-Pipoca/Web%202.0/index.html) — Uma experiência com melhorias visuais.
+- ✨ [Web 3.0](https://rodrigues-giovanna.github.io/Toca-da-Pipoca/Web%203.0/index.html) — Uma versão mais moderna e interativa.
 
 ## 🛠️ Tecnologias utilizadas
 
